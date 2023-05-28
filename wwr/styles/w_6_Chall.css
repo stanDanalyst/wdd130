@@ -1,0 +1,20 @@
+div{
+    padding-top: 50px;
+}
+
+body{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    
+}
+
+img{
+    background-color: white;
+}
+
+p{
+    background-color: gray;
+}
+
