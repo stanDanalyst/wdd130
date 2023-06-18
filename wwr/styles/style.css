@@ -218,7 +218,29 @@ main section img{
     transform: scale(1.1);
 }
 
+/*Rivers page starts here*/
+.rivers-grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr;
+   background-color: #ccd0c5;
+   padding: 10px;
+}
 
+.card-img{
+    grid-column: 1;
+
+}
+
+.riverspg-card{
+    grid-column: 2;
+    margin-top: 150px;
+}
+
+.rivers-text{
+    grid-column: 2;
+    
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
