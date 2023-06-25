@@ -8,6 +8,13 @@ nav{
     justify-content: space-around;
 }
 
+nav a {
+    text-align: center;
+    color: #ffff;
+    padding: 35px;
+}
+
+
 .logo{
     width: 80px;
 }
@@ -35,7 +42,7 @@ main section{
 }
 
 body{
-    background-color: #ffff;
+    background-color: #4d4747;
     margin: 0;
     padding: 0;
 }
@@ -95,4 +102,20 @@ footer p{
 }
 .logo{
     width: 80px;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #ccd0c5;
+    padding: 10px;
+}
+
+.button-box{
+    grid-column: 2;
+}
+
+.home-msg{
+    grid-column: 1;
 }
