@@ -42,7 +42,6 @@ main section{
 }
 
 body{
-    background-color: #4d4747;
     margin: 0;
     padding: 0;
 }
@@ -74,7 +73,7 @@ nav a:hover{
     box-shadow: 5px 5px 10px #6f7364;
 }
 footer, footer a:hover{
-    color: #0a0602;
+    color: #FFFFFF;
 
 }
 
@@ -107,15 +106,17 @@ footer p{
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
     background-color: #ccd0c5;
     padding: 10px;
 }
 
-.button-box{
+.home-box{
     grid-column: 2;
+    margin-top: 10px;
+   
 }
 
 .home-msg{
     grid-column: 1;
+    margin-bottom: 10px;
 }
