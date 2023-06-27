@@ -44,6 +44,7 @@ main section{
 body{
     margin: 0;
     padding: 0;
+    background-color: #ccd0c5;
 }
 
 header{
@@ -106,7 +107,7 @@ footer p{
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #ccd0c5;
+   
     padding: 10px;
 }
 
@@ -124,7 +125,6 @@ footer p{
 
 .resume-grid{
     grid-template-columns: 1fr 1fr;
-    background-color: #ccd0c5;
     margin-left: 20px;
 }
 
