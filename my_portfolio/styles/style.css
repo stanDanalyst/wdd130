@@ -121,3 +121,16 @@ footer p{
     margin-bottom: 10px;
 }
 
+.resume-grid{
+    grid-template-columns: 1fr 1fr;
+    background-color: #ccd0c5;
+}
+
+.resume-msg{
+    grid-column: 1px;
+}
+
+#myresume{
+
+    grid-column: 2px;
+}
