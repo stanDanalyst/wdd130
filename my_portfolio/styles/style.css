@@ -113,6 +113,7 @@ footer p{
 .home-box{
     grid-column: 2;
     margin-top: 10px;
+    margin-left: 30px;
    
 }
 
@@ -124,6 +125,7 @@ footer p{
 .resume-grid{
     grid-template-columns: 1fr 1fr;
     background-color: #ccd0c5;
+    margin-left: 20px;
 }
 
 .resume-msg{
@@ -133,4 +135,10 @@ footer p{
 #myresume{
 
     grid-column: 2px;
+}
+
+.contactme-grid{
+    
+    margin-top: 100px;
+    margin-left: 20px;
 }
