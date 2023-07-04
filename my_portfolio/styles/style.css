@@ -6,7 +6,7 @@ div content{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
 }
 
 nav a {
@@ -122,9 +122,34 @@ p{
     grid-column: 2px;
 }
 
+
+.contactme-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-msg{
+    display: block;
+    padding: 150px;
+    border: 2px;
+    width: 50%;
+    font-family: Roboto
+    
+}
+
+.call_me{
+    grid-column: 2;
+    border: 2px;
+    padding: 80px;
+}
+
+h3{
+    grid-column: 2;
+    width: 50%;
+    margin: 20px;
+    color: blue;
+}
 .contactme-grid{
     background-color: #235472;
-    margin-top: 100px;
-    margin-left: 20px;
-    font-family: Roboto
+    
 }
