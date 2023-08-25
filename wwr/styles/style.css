@@ -8,7 +8,7 @@ nav{
 }
 nav a {
     text-align: center;
-    color: #1e0256;
+    color: white;
     padding: 35px;
 }
 
@@ -43,7 +43,7 @@ body{
 }
 
 header{
-    background-color: #ddd5d582;
+    background-color: #6f7364;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -122,7 +122,7 @@ footer .social img{
 }
 
 footer a{
-    color: #0a0602;
+    color: white;
     text-decoration: none;
 }
 
