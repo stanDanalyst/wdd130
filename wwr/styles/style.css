@@ -55,21 +55,23 @@ nav a:hover{
 }
 
 .home-title {
-    color: #090705;
+    color: #060509;
     font-family: sans-serif, monospace;
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 10px;
+    color: blueviolet;
 
 }
 
 h4{
-    color: #090705;
+    color:rgb(12, 103, 195);
+    font: bolder;
 }
 .book, .join {
-    color: #2006b4f3;
+    color:blueviolet;
     text-decoration: none;
     font: bolder;
-    font-size: 18px;
+    font-size: 25px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
@@ -77,7 +79,7 @@ h4{
 }
 
 .book:hover, .join:hover{
-    color: #292222;
+    color: dodgerblue;
 }
 
 .msg h2{
@@ -163,6 +165,10 @@ footer p a:hover{
 
 }
 
+#ask{
+    padding-left: 684px;
+}
+
 #logo_link{
     padding-top: 5px;
     justify-self: center;
@@ -189,9 +195,13 @@ footer p a:hover{
 
 }
 
+#info{
+    font-size: 20px;
+}
+
 .card-img{
     border: 10px solid black;
-    width: 100%;
+    width: 50%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -221,28 +231,37 @@ main section img{
 /*Rivers page starts here*/
 .rivers-grid{
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr;
    grid-template-rows: 1fr;
    background-color: #ccd0c5;
    padding: 10px;
 }
 
 .card-img{
-    grid-column: 1;
+    grid-column: ;
 
 }
 
 .riverspg-card{
-    grid-column: 2;
+    grid-column: ;
     margin-top: 150px;
 }
 
 .rivers-text{
-    grid-column: 2;
+    background-color: #e4e8d8;
+    line-height: 1.5em;
+    padding: 50px;
+    
     
 }
 
 /*End of rivers page */
+
+/*Contact page start here */
+
+#newcontact{
+    margin-top: 80px;
+}
 
 
 @media screen and (max-width: 900px) {
