@@ -263,11 +263,6 @@ main section img{
     margin-top: 80px;
 }
 
-#ask{
-    display: block;
-    text-align: center;
-    margin-right: 10px;
-}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
